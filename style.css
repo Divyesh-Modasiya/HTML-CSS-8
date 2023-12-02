@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid; */
+    background-image: url(img/hero_3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.header .head{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.333);
+    position: relative;
+}
+.header::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.409);
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.head .logo{
+    width: 20%;
+    height: inherit;
+    /* border: 1px solid; */
+    margin-left: 5%;
+}
+.head .logo img{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.head .navlink{
+    width: 60%;
+    height: inherit;
+    /* border: 1px solid; */
+}
+.head .navlink a{
+    text-decoration: none;
+    line-height: 100px;
+    margin-left: 40px;
+    color: black;
+}
+.head .navlink a:hover{
+    color: rgb(101,196,178);
+    cursor: pointer;
+}
+.head button{
+    width: 140px;
+    height: 40px;
+    margin-left: 120px;
+    background-color: transparent;
+    border: 1px solid;
+}
+.head button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.header .text{
+    width: 40%;
+    height: 200px;
+    border: 1px solid transparent;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 200px;
+    color: white;
+    position: relative;
+}
+.header .text h1{
+    font-size: 60px;
+    margin-top: 20px;
+
+}
+.text p{
+    font-size: 20px;    
+    margin-top: 10px;
+}
+.text button{
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid ;
+    margin-top: 20px;
+    color: white;
+}
+.text button:hover{
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+/* first */
+.first{
+    width: 100%;
+    height: 500px;
+    border: 1px solid transparent;
+    display: flex;
+    margin-top: 100px;
+}
+.first .a{
+    width: 40%;
+    height: 500px;
+    border: 1px solid transparent;
+}
+.first .a h1{
+    font-size: 40px;
+    margin-inline: 40px;
+    padding-top: 100px;
+}
+.first .a p{
+    font-size: 20px;
+    margin-inline: 40px;
+    margin-top: 40px;
+}
+.first .a h3{
+    font-size: 20px;
+    margin-inline: 40px;
+    margin-top: 40px;
+    font-weight: 500;
+}
+.first .a h3 span{
+    color: rgb(101,196,178);
+}
+.first .b{
+    width: 60%;
+    height: 500px;
+    border: 1px solid transparent;
+    display: flex;
+}
+.first .b .b1{
+    width: 50%;
+    height: 500px;
+    border: 1px solid transparent;
+}
+.first .b .b1 .sub{
+    width: 80%;
+    height: 200px;
+    /* border: 1px solid; */
+    margin-top: 30px;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+.first .b .b1 .sub img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* first */
+
+/* second */
+.second{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    margin-top: 100px;
+    border: 1px solid transparent;
+}
+.second .c{
+    width: 50%;
+    height: 500px;
+    border: 1px solid transparent;
+    background-color: rgb(14,39,55);
+}
+.second .c img{
+    width: 100%;
+    height: 100%;
+}
+.second .c h1{
+    font-size: 45px;
+    color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.second .c h3{
+    color: white;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.second .c h3 #co{
+    color: rgb(101,196,178);
+    font-size: 30px;
+    margin-right: 10px;
+}
+.second .info{
+    width: 50%;
+    height: 280px;
+    border: 1px solid  transparent;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.second .info h3{
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.second .info button{
+    width: 120px;
+    height: 35px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: rgb(101,196,178);
+    color: white;
+}
+.second .info button:hover{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    color: rgb(101,196,178);
+}
+/* second */
+
+/* third */
+.third{
+    width: 80%;
+    margin-left: 10%;
+    height: 500px;
+    border: 1px solid transparent;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.third .d{
+    width: 32%;
+    height: 220px;
+    border: 1px solid transparent;
+    text-align: center;
+    border-radius: 10px;
+}
+.third .d:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.third .d i{
+    margin-block: 30px;
+    color:  rgb(101,196,178);
+}
+.third .d p{
+    margin-top: 10px;
+    margin-inline: 10px;
+}
+/* third */
+
+/* forth */
+.forth{
+    width: 100%;
+    height: 800px;
+    margin-top: 100px;
+}
+.forth h1{
+    margin-left: 44%;
+    font-size: 30px;
+}
+.forth .line{
+    width: 8%;
+    height: 1px;
+    border: 1px solid ;
+    margin-left: 46%;
+}
+.forth .fbox{
+    width: 80%;
+    height: 800px;
+    border: 1px solid transparent;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fbox .f1{
+    width: 32%;
+    height: 250px;
+    border: 1px solid transparent;
+}
+.fbox .f1 img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.fbox .f2 {
+    width: 100%;
+    height: 50px;
+    border: 1px solid transparent;
+    text-align: center;
+    margin-top: 20px;
+} 
+/* forth */
+
+/* five */
+.five{
+    width: 100%;
+    height: 500px;
+    border: 1px solid transparent;
+    margin-top: 150px;
+   
+}
+.five .fbox{
+    width: 80%;
+    height: 450px;
+    margin-left: 10%;
+  
+    display: flex;
+    border: 1px solid transparent;
+}
+.five .f{
+    width: 50%;
+    height: 400px;
+    border: 1px solid transparent;
+    margin-top: 25px;
+}
+.five .f img{
+    width: 100%;
+    height: 100%;
+}
+.five .f h1{
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.five .f .fline{
+    width: 15%;
+    height: 1px;
+    border: 1px solid ;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.five .f p{
+    margin-inline: 60px;
+    margin-top: 30px;
+}
+.five .f button{
+    width: 140px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid ;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.five .f button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+/* five */
+
+/* foot */
+.foot{
+    width: 100%;
+    height: 400px;
+    border: 1px solid;
+    margin-block: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    align-items: center;
+    color: white;
+}
+.foot .last{
+    width: 23%;
+    height: 300px;
+    border: 1px solid transparent;
+}
+.foot .last h1{
+    margin-left: 50px;
+    font-size: 25px;
+}
+.foot .last p{
+    color: gray;
+    margin-inline: 20px;
+    margin-top: 20px;
+}
+.foot .last button{
+    width: 120px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: none;
+}
+.foot .last button:hover{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+.foot .last li{
+    list-style: none;
+    margin-top: 15px;
+    margin-left: 50px
+}
+.foot .last li a{
+    text-decoration: none;
+    color: gray;
+}
+.foot .last i{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.foot .last i:hover{
+    color: rgb(101,196,178);
+    cursor: pointer;
+}
+/* foot */
